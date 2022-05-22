@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(Roboto/Roboto-Black.ttf);
+  color: rgba(51, 49, 50);
+}
+div {
+  font-family: myFirstFont;
+}
+
+#divTopHeaderWrap {
+  display: flex;
+  flex-direction: row;
+  padding-top: 35px;
+  text-align: center;
+  gap: 50px;
+  padding-left: 30px;
+}
+#divTopHeaderWrap h1 {
+  font-size: 15px;
+  padding-bottom: 0;
+}
+#divTopHeaderWrap li {
+  font-size: 10px;
+}
+
+#divTopHeaderWrap a {
+  color: rgba(51, 49, 50);
+  text-decoration: none;
+  list-style-type: none;
+}
+.hrEn {
+  list-style-type: none;
+  font-weight: 300;
+  padding-top: 2px;
+}
+.hrEn ul {
+  display: flex;
+}
+.hrEn a {
+  padding-right: 40px;
+  list-style-type: none;
+  color: rgba(51, 49, 50);
+  text-decoration: none;
+}
+.hrEn a:hover {
+  color: rgba(183, 156, 98);
+}
+#qrSection {
+  padding-top: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+#qrSection a {
+  color: rgba(183, 156, 98);
+  text-decoration: none;
+  background-color: rgba(51, 49, 50);
+  list-style-type: none;
+  display: inline-block;
+  font-weight: normal;
+  border-radius: 2px;
+  padding: 15px;
+  margin-left: 0px;
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+#qrSection a:hover {
+  color: white;
+  background-color: rgba(183, 156, 98);
+}
+#dva a {
+  padding: 15px 50px 15px 50px;
+}
+#tri a {
+  padding: 15px 60px 15px 60px;
+}
+
+@media only screen and (max-width: 375px) {
+  #divTopHEaderWrap {
+    gap: 100px;
+  }
+  .dva {
+    padding: 0px 30px 0px 30px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  #divTopHEaderWrap {
+    gap: 100px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  #divTopHEaderWrap {
+    gap: 100px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  #divTopHEaderWrap {
+    gap: 100px;
+  }
+}
